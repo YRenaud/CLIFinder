@@ -1024,7 +1024,7 @@ sub save_csv{
 		
 		grchim\$GeneStrand<-"*"
 		
-		grchim\$GeneStrand[position2[,1]]<- grLINE\$repStrand[position2[,2]]
+		grchim\$GeneStrand[position2[,1]]<- grLINE\$geneStrand[position2[,2]]
 		
 		grchim\$repName<-"no"
 		
